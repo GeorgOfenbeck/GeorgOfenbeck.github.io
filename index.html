@@ -17,15 +17,8 @@
     <div class="wrapper">
       <header>
         <h1 class="header">Georg Ofenbeck</h1>
-        <p class="header"><img src="images/me.jpg" width="180" height="176"  alt=""/></p>
-        <ul>firstname.lastname@inf.ethz.ch        </ul>
-        <ul>ETH Zürich<br>
-Department of Computer Science<br> 
-CAB H83.1
-<br>
-Universitätsstrasse 6<br>
-8006 Zurich<br>
-Switzerland     </ul>
+        <p class="header"><img src="images/cvpic.jpg"  height="180"  alt=""/></p>
+        <ul>firstname.lastname@gmail.com       </ul>
 		<ul>          <li><a class="buttons github" href="https://github.com/GeorgOfenbeck">GitHub Profile</a></li>
         </ul>
 
@@ -35,40 +28,75 @@ Switzerland     </ul>
       </header>
       <section>
         <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome!</h3>
+          <a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome!</h3>
+        <p>I'm former PhD. student at <a href="http://www.inf.ethz.ch/" target="new">ETH Zürich</a> in the group of <a href="http://www.inf.ethz.ch/personal/markusp/index.html" target="new">Markus Püschel</a>. <br>I'm currently in the process of interviewing for industry opportunities!<br>
+          My previous research tried to tackle the efficient construction of program generators targeting high-performance code.
+          The results, presented in my <a href="https://drive.google.com/open?id=0B9SH4AFkecQFMnkzWi1IRGprSFE" target="new">thesis</a> and in my latest
+          <a href="https://dl.acm.org/citation.cfm?doid=3136040.3136060" target="new">publication</a>, are able to extend generic programming to include the time dimension.
+          As such we are able to abstractly reason about the execution time (pre-computation vs computing at runtime) within a code generator.
+          This is demonstrated using subset of the original <a href="http://www.spiral.net/" target="new">Spiral</a> system. We use modern program language features such as heavy use of embedded DSLs and staging (meta programming) utilizing the <a href="http://scala-lms.github.io/">Lightweight Modular Staging</a> framework developed by <a href="http://tiarkrompf.github.io/" target="new">Tiark Rompf</a>.
+          Our final prototype is able to implement the core logic of a FFT code generator for both fixed and general size input within less than 200 lines of Scala code and can be found <a href="https://github.com/GeorgOfenbeck/SpaceTime">here</a>.
 
-<p>I'm a PhD. student at <a href="http://www.inf.ethz.ch/" target="new">ETH Zürich</a> in the group of <a href="http://www.inf.ethz.ch/personal/markusp/index.html" target="new">Markus Püschel</a>.
-My current research tries to tackle the efficent construction of program generators targeting high performance code. More specifically I'm reimplementing a subset of the original <a href="http://www.spiral.net/" target="new">Spiral</a> system using modern program language features. In the process I make heavy use of embedded DSLs and staging utilizing the <a href="http://scala-lms.github.io/">Lightweight Modular Staging</a> framework developed by <a href="http://tiarkrompf.github.io/" target="new">Tiark Rompf</a>. Beside reconstructing existing behaviour (in a hopefully elegant way), I'm exploring new possibilities which modern program language features enable in the context of program generators. 
+        <h3>        <a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Skills</h3>
 
-
-
-
-
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Publications</h3>
-<p>
-Georg Ofenbeck, Tiark Rompf, Alen Stojanov, Martin Odersky and Markus Püschel
-<br><b><a href="http://spiral.ece.cmu.edu:8080/pub-spiral/abstract.jsp?id=170" target="_blank">Spiral in Scala: Towards the Systematic Construction of Generators for Performance Libraries</a></b>
-<br>Proc. International Conference on Generative Programming: Concepts & Experiences (GPCE), 2013<br>
-</p>
-
-<p>C. L. Müller, B. Baumgartner, G. Ofenbeck, B. Schrader, and I. F. Sbalzarini. pCMALib: a parallel FORTRAN 90 library for the evolution strategy with covariance matrix adaptation. In Proc. ACM Genetic and Evolutionary Computation Conference (GECCO’09), Montreal, Canada, July 2009. <br>
-  <a href="http://www.mosaic.ethz.ch/research/pubs/docs/Mueller2009b.pdf" target="new">PDF</a>
-  
-  
-  
-</p>
-<p>
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Student Projects</h3>
+        <img src="images/skills.PNG"  height="400"  alt="" align="right"/>
+        Within my career path so far I was able to acquire a broad skill set gravitating around the topic of performance and code generation. As highlighted in the two pictures, my work so far required a very vertical view of the hardware/software stack of an application.
+        As such, I possess a good understanding of low-level details, such as the low details of e.g. Intel processors, all the way up to very high-level concepts such as type driven meta-programming in Scala.
+        <img src="images/performance.png"  height="200"  alt=""/>
 
 
-<p>
+        <h3>
 
-<ul><li>Leo Büttiker: Rewrite Engine for Staged Expressions, August 2013</li>
-<li>Maksim Rubanov: Extensions of the Roofline Model, April 2013</li>
-<li>Ruedi Steinmann: Applying the Roofline Model, April 2012</li></ul>
+
+          <a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Publications</h3>
+        <p>
+
+
+        <h4>Generic Programming Applied on the Time Dimension of Meta Programming</h4>
+        How to apply generic programming techniques to challenges in metaprogramming in the context of high performance code generators.
+        <a href="https://github.com/GeorgOfenbeck/SpaceTime" target="new"> Github</a> /
+        <a href="https://drive.google.com/open?id=0B9SH4AFkecQFMnkzWi1IRGprSFE">Thesis</a> /
+        <a href="https://drive.google.com/open?id=0B9SH4AFkecQFblNLaHRxTnVseXM">Publication</a>
+
+
+
+        <h4> Random Testing for Compilers</h4>
+        A tool for differential testing of compilers using random instances of a given intermediate representation.
+        <a href="https://github.com/GeorgOfenbeck/virtualization-lms-core/tree/buttom_up/src/test/test" target="new"> Github</a> /
+        <a href="https://www.cs.purdue.edu/homes/rompf/papers/ofenbeck-scala16.pdf">Publication</a>
+
+        <h4>Generating Vector Instructions</h4>
+        A demonstration on how to provide modular and extensible support for modern SIMD vector architectures in a DSL-based generator.
+        <a href="http://spiral.ece.cmu.edu:8080/pub-spiral/pubfile/paper_179.pdf">Publication</a>
+
+
+
+        <h4>Applying the Roofline Model</h4>
+        We show how to produce roofline plots with measured data on recent generations of Intel platforms.
+        <a href="https://github.com/GeorgOfenbeck/perfplot" target="new"> Github</a> /
+        <a href="http://spiral.ece.cmu.edu:8080/pub-spiral/abstract.jsp?id=177">Publication</a>
+
+
+        <h4>Spiral in Scala</h4>
+        We implement a small, but representative subset of the program generator <a href="http://www.spiral.net/" target="new">Spiral</a> in Scala using the Lightweight Modular Staging (LMS) framework.
+        <a href="https://github.com/GeorgOfenbeck/SpiralS" target="new"> Github</a> /
+        <a href="http://spiral.ece.cmu.edu:8080/pub-spiral/pubfile/paper_170.pdf">Publication</a>
+
+
+        <h4>High Performance Distributed Bio-Inspired Optimization Library</h4>
+        A parallel software library that implements the Evolution Strategy with Covariance Matrix Adaptation (CMAES) using MPI for efficient parallelization.
+        <a href="https://git.mpi-cbg.de/mosaic/libpcma/tree/master" target="new"> Github</a> /
+        <a href="http://mosaic.mpi-cbg.de/docs/Mueller2009b.pdf">Publication</a>
+        <p>
+        <h3>
+          <a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Student Projects</h3>
+
+
+        <p>
+
+        <ul><li>Leo Büttiker: Rewrite Engine for Staged Expressions, August 2013</li>
+          <li>Maksim Rubanov: Extensions of the Roofline Model, April 2013</li>
+          <li>Ruedi Steinmann: Applying the Roofline Model, April 2012</li></ul>
 </p>
 
       </section>
